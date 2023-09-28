@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*home section*/
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+.carousel-caption .btn{
+    margin-top: 14px;
+    padding: 2px;
+    font-size: 13px;
+}
+.carousel-caption h5{
+    font-size: 29px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 13px;
+}
+.carousel-item .w-100{
+    height: 100vh;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0,0.8);
+    z-index: 1;
+}
+
+@media only screen and (max-width:992px){
+    .carousel-caption{
+        margin-bottom: 220px;
+    }
+    
+   
+   
+}
+
+@media only screen and (max-width:576px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 240px;
+    }
+    .carousel-caption p{
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 15px;
+
+    }
+    .carousel-caption h5{
+        font-size: 19px;
+    }
+    .carousel-caption .btn{
+        font-size: 11px;
+        padding: 1px;
+    }
+}
+@media only screen and (max-width:576px){
+    .carousel-caption{
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (max-width:280px){
+    .carousel-caption{
+        margin-bottom: 20px;
+    }
+}
+/*about*/
+.section-tittle{
+    margin-bottom: 60px;
+}
+.section-tittle .line{
+    width: 60px;
+    height: 3px;
+    background-color:rgb(58, 58, 216);
+    margin: auto;
+}
+.section-tittle p{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+}
+.icon-box{
+    width: 25px;
+    height: 25px;
+    background:rgb(110, 134, 110);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(60, 17, 141);
+    font-size: 14px;
+    flex: none;
+}
+.fodie p{
+    font-size: 14px;
+}
+.icon-font p{
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: -7px;
+}
+.icon-font{
+    margin-top: -8px;
+    padding: 4px;
+}
+.icon-font h6{
+    font-size: 14px;
+    font-weight: 700;
+}
+/*menu*/
+.intro-text{
+    text-align: center;
+    margin-top: 0px;
+}
+.intro-text p{
+    max-width: 500px;
+    margin: auto;
+    font-size: 12px;
+}
+ .nav-pills .button{
+    margin-left: 4px;
+    margin-right: 4px;
+    font-style:9px;
+}
+.menu-item i{
+    color: rgb(165, 14, 132);
+}
+#menu h1{
+    margin-top: 15px;
+    padding:30px;
+    margin-bottom: 10px;
+}
+#menu p{
+    margin-bottom: 10px;
+}
+.menu-item h5{
+    font-weight: 700;
+    font-size: 15px;
+}
+.menu-item p{
+    font-size: 11px;
+    font-weight: 400;
+}
+.menu-item-content{
+    justify-content: center;
+    text-align: enter;
+}
+#ajit{
+    margin-bottom: 40px;
+}
+/*team*/
+.team-member img{
+    width: 120px;
+    height: 120px;
+    margin-top: 7px;
+    border-radius: 100px;
+    box-shadow: -5px -5px 0 #f58d17;
+}
+#intro{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+   
+.team-member{
+    border: 1px solid rgba(172, 174, 180, 0.753);
+    background-color: rgb(218, 224, 230);
+    margin-left: 30px;
+}
+.team-member p{
+    margin-top: -7px;
+    font-size: 14px;
+}
+#team{
+    margin-bottom: 80px;
+}
+/*reservation*/
+.reservation .intro-text{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/*blog*/
+.blog .intro-text{
+    margin-top: 50px;
+}
+.blog-post img{
+    width: 40%;
+    object-fit: cover;
+}
+.blog-post-content h4{
+    font-size: 15px;
+}
+.blog-post-content .text{
+    font-size: 12px;
+}
+.blog-post{
+    border: 1px solid rgb(160, 156, 156);
+}
+@media only screen and (max-width:576px){
+    .blog-post{
+        flex-direction: column;
+    }
+    .blog-post img{
+        width: 100%;
+    }
+}
